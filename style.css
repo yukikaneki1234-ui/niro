@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle, #f3e8ff, #d0aaff, #b57edc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #4b0082;
+    animation: fadeIn 2s ease-in;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px;
+    background: #fff0fa;
+    max-width: 700px;
+    box-shadow: 0 0 25px rgba(153, 50, 204, 0.3);
+    border: 2px dashed #c084fc;
+  }
+  
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color: #9333ea;
+    text-shadow: 2px 2px #d8b4fe;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #6b21a8;
+    margin-bottom: 1.5rem;
+  }
+  
+  .photo-frame {
+    position: relative;
+    border: 5px dashed #dda0dd;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(186, 85, 211, 0.3);
+  }
+  
+  .main-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.6);
+    color: #8a2be2;
+    font-style: italic;
+    padding: 0.5rem;
+  }
+  
+  .kuromi-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .kuromi {
+    width: 80px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #d9a8f8;
+    background-color: white;
+    box-shadow: 0 0 10px #e0bdf4;
+    transform: rotate(-5deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .kuromi:hover {
+    transform: scale(1.1) rotate(0deg);
+  }
+  
+  .message {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
+  
+  .signature {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3rem;
+    color: #6a0dad;
+  }
+  
+  /* Animasi */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
